@@ -18,4 +18,3 @@ def makeAnagram(a, b):
             listB.append(l)
 
 
-assert makeAnagram(a, b) == 4
