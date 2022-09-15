@@ -1,4 +1,5 @@
-#Bomberman lives in a rectangular grid. Each cell in the grid either contains a bomb or nothing at all.
+#https://www.hackerrank.com/challenges/bomber-man/problem
+# Bomberman lives in a rectangular grid. Each cell in the grid either contains a bomb or nothing at all.
 
 #Each bomb can be planted in any cell of the grid but once planted, it will detonate after exactly 3 seconds. Once a bomb detonates, it's destroyed — along with anything in its four neighboring cells. This means that if a bomb detonates in cell , any valid cells  and  are cleared. If there is a bomb in a neighboring cell, the neighboring bomb is destroyed without detonating, so there's no chain reaction.
 

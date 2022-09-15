@@ -1,4 +1,5 @@
-#Given an array of strings of digits G, try to find the occurrence of a given pattern of digits P. 
+# https://www.hackerrank.com/challenges/the-grid-search/problem
+# Given an array of strings of digits G, try to find the occurrence of a given pattern of digits P. 
 #In the grid and pattern arrays, each string represents a row in the grid
 
 
