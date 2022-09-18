@@ -37,12 +37,12 @@ def climbingLeaderboard(ranked, player):
     return listPosition
         
         
+if __name__ == '__main__':
+    f = open('./climbingLeaderboard.txt', 'r')
+    test = f.read()
+    ranked = list(map(int, test.split('\n')[1].split(' ')))
+    player = list(map(int, test.split('\n')[3].split(' ')))
 
-f = open('./climbingLeaderboard.txt', 'r')
-test = f.read()
-ranked = list(map(int, test.split('\n')[1].split(' ')))
-player = list(map(int, test.split('\n')[3].split(' ')))
 
-
-assert climbingLeaderboard([100, 100, 50, 40, 40, 20, 10], [5, 25, 50, 120]) == [6, 4, 2, 1]
-print(climbingLeaderboard(ranked, player))
+    assert climbingLeaderboard([100, 100, 50, 40, 40, 20, 10], [5, 25, 50, 120]) == [6, 4, 2, 1]
+    print(climbingLeaderboard(ranked, player))
